@@ -7,7 +7,7 @@
 akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket"
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py
+wget -q -O /usr/local/bin/ws-nontls https://raw.githubusercontent.com/Azigaming404/vpn/main/websocket/websocket.py
 chmod +x /usr/local/bin/ws-nontls
 
 # Installing Service
