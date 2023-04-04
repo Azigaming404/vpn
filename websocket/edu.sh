@@ -35,7 +35,7 @@ systemctl enable ws-nontls
 systemctl restart ws-nontls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/ws-ovpn https://${akbarvpn}/ws-ovpn.py
+wget -q -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/Azigaming404/vpn/main/websocket/ws-ovpn.py
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
